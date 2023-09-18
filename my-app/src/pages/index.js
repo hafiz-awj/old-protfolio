@@ -1,10 +1,12 @@
 import Navbar from '@/Components/Header';
+import Home from '@/Components/Home';
 import React from 'react'
 
-const Home = () => {
+const Protfolio = () => {
   return(<>
     <Navbar />
+    <Home />
   </>)
 };
 
-export default Home;
+export default Protfolio;
